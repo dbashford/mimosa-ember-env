@@ -1,0 +1,31 @@
+{
+  "name": "mimosa-ember-env",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbashford/mimosa-ember-env",
+  "author": "David Bashford",
+  "description": "Adds EmberENV declaration to all ember libraries",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/mimosa-ember-env"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "emberjs",
+    "ember"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./src/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
